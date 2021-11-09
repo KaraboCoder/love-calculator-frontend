@@ -6,7 +6,7 @@ function Loading() {
 
     return (
         <div>
-            <img src={LoadingAnimation} />
+            <img src={LoadingAnimation} alt="loading..." />
         </div>
     );
 }

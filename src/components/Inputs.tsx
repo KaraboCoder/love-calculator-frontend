@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppContext, IAppContext } from '../context'
+import { AppContext } from '../context'
 
 
 function Inputs() {
