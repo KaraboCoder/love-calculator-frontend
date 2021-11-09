@@ -13,7 +13,7 @@ function App() {
 
   const calculateLove = async (name1: string, name2: string) => {
     setLoading(true)
-    const res = await fetch('http://localhost:3001/api/calculate-love', {
+    const res = await fetch('https://love-calculator-backend.herokuapp.com/api/calculate-love', {
       method: 'POST',
       headers: {
         'content-type': 'application/json;charset=UTF-8'
